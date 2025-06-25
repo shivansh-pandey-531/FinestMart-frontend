@@ -23,7 +23,7 @@ const HeroSection = () => {
             </div>
           </div>
 
-          <div className=' mt-5 grid grid-cols-2 grid-rows-2 max-w-80'>
+          <div className='mt-5 grid grid-cols-2 grid-rows-2 max-w-80'>
             <div className='gap-1 flex items-center'>
               <span className="rounded-full p-1 flex items-center justify-center"><GoCheckCircleFill size={18} color="#F0B70D" /></span>
               <p>Fresh Vegetables</p>
