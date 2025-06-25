@@ -26,7 +26,7 @@ const Navbar = () => {
         </div>
         
         <div className='flex items-center gap-6 mr-2'>
-            <div className='relative mr-5 pt-2 cursor-pointer'>
+            <div className='relative hidden sm:block mr-5 pt-2 cursor-pointer'>
                 <MdOutlineShoppingBag size={22} />
                 <div className='bg-[#F38160] h-2 w-2 rounded-full absolute right-0 top-0'></div>
             </div>
