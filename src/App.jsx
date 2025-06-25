@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 function App() {
 
   return (
-    <div className="px-16 py-4 w-screen h-screen">
+    <div className="sm:px-2 sm:py-2 md:px-16 md:py-4 w-screen h-screen">
       <Navbar />
       <HeroSection />
       <Footer />
