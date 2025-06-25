@@ -13,8 +13,8 @@ const HeroSection = () => {
       {/* Intro + Image */}
       <main className='flex relative'>
         <div className='flex flex-col'>
-          <h1 className='text-7xl font-semibold tracking-wide'>Let your <span className='text-[#F38160]'>groceries</span><br/> come to you</h1>
-          <p className='text-gray-400 mt-4 text-xl tracking-wide'>Get fresh groceries online without stepping out to<br/> make delicious food with the freshest ingredients</p>
+          <h1 className='text-5xl sm:text-7xl font-semibold tracking-wide'>Let your <span className='text-[#F38160]'>groceries</span><br/> come to you</h1>
+          <p className='text-base text-gray-400 mt-4 sm:text-xl tracking-wide'>Get fresh groceries online without stepping out to<br/> make delicious food with the freshest ingredients</p>
 
           <div className='mt-8 flex items-center gap-0 w-[65%]'>
             <input type="text" className='bg-[#F3F3F4] focus:outline-none border-none px-5 py-3 rounded-l-lg w-full placeholder-gray-500 text-base' placeholder='Search here' />
